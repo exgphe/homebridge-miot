@@ -110,6 +110,7 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 -   dmaker.airfresh.a1 (Xiaomi Mi Air Purifier A1 MJXFJ-150-A1) 🔵[MiCloud]
 -   dmaker.airfresh.t2017 (Xiaomi Air Purifier MJXFJ-300-G1) 🔵[MiCloud]
 -   zhimi.airfresh.va2 (Smartmi Fresh Air System XFXT01ZM) 🔵[MiCloud]
+-   zhimi.airfresh.va4 (Smartmi Fresh Air System XFXTDFR02ZM) 🔵[MiCloud]
 
 ### Robot Cleaner
 
@@ -161,6 +162,7 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 -   yeelink.light.mono6 (Yeelight Smart LED Bulb mono6)
 -   yeelink.light.lamp22 (Xiaomi Mi Computer Monitor Light Bar 1S)
 -   yeelink.light.strip6 (Yeelight Lightstrip Plus)
+-   philips.light.candle2 (Xiaomi Philips Zhirui Candle Light Bulb) 🔵[MiCloud]
 
 ### Airer
 
@@ -190,7 +192,6 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 ### Kettle
 
 -   yunmi.kettle.r3 (Yunmi Kettle) 🔵[MiCloud]
--   viomi.health_pot.v1 (Mijia Smart Multipurpose Wi-Fi Kettle) 🔵[MiCloud]
 
 ### Thermostat
 
