@@ -6,6 +6,108 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.2] - 2022-05-30
+### Added
+- Added support for dmaker.fan.p30 (Xiaomi Smart Standing Fan 2) fan
+- Added support for dmaker.fan.p33 (Xiaomi Smart Standing Fan 2 Pro) fan
+
+### Fixed
+- Adjusted Airer devices to new spec
+- Fix missing temperature on Mi Fresh Air Ventilator C1-80 (zhimi.airfresh.ua1)
+
+
+## [1.2.1] - 2022-05-24
+### Added
+- Added support for zhimi.fan.sa1 (Mi Standing Fan) fan
+- Added support for dreame.vacuum.p2027 (Dreame W10) robot cleaner
+
+
+## [1.2.0] - 2022-05-20
+### Added
+- Added cooker device support
+- Added support for chunmi.cooker.normalcd1 (Mi IH 3L Rice Cooker) cooker
+- Added support for cuco.plug.cp3a (Gosund CP3-AM) outlet
+- Added support for zhimi.airp.mp4 (Miija Air Purifier 4 Pro) air purifier
+- Added support for cuco.plug.cp5pro (Gosund Smart Power Strip Pro) outlet
+- Added support for roborock.vacuum.a27 (Roborock S7 MaxV Ultra) robot cleaner
+
+### Changed
+- Only necessary properties are now being monitored which should reduce the probability of timeouts
+- Properties which are not writable are now skipped in `propertyControl`
+
+### Fixed
+- Fix properties monitoring in custom services
+- Set temperature and humidity sensor to inactive when miot device is not connected
+
+
+## [1.1.3] - 2022-04-16
+### Fixed
+- More spec parsing improvements
+
+
+## [1.1.2] - 2022-04-15
+### Fixed
+- Additional parsing fix
+
+
+## [1.1.1] - 2022-04-15
+### Added
+- Added support for roborock.vacuum.a01 (Roborock E4) robot cleaner
+- Added support for zhimi.airp.rmb1 (Xiaomi Air Purifier 4 Lite) air purifier
+
+### Fixed
+- Fix automatic device identification
+- Properties, action and events with id 0 are now properly parsed
+
+
+## [1.1.0] - 2022-04-11
+### Added
+- Added support for qmi.powerstrip.v1 (Xiaomi Chingmi WiFi Smart Powerstrip) outlet
+- Added support for zhimi.airp.mb3a (Xiaomi Mi Air Purifier 3H v2) air purifier
+- Added support for cuco.light.sl4a (NiteBird SL4) light
+
+### Changed
+- Introduce custom services for better and cleaner device control
+
+### Fixed
+- Fixed an issue where some properties where detected as percentage, even if they were not
+- Fixed an issue where outlets were displayed as switches
+
+
+## [1.0.6] - 2022-03-09
+### Added
+- Added support for dreame.vacuum.p2259 (Dreame Bot D9 Max) robot cleaner
+- Added support for dreame.vacuum.p2187 (Dreame D9 Pro) robot cleaner
+- Added support for yeelink.light.lamp15 (Yeelight Led Screen Light Bar Pro) light
+
+### Changed
+- Marked the Roidmi Eve Plus as not MiCloud required
+
+
+## [1.0.5] - 2022-02-21
+### Added
+- Added support for zhimi.airmonitor.v1 (Xiaomi PM2.5 Monitor) air monitor. Thanks @wojciej for the contribution!
+- Added support for cubee.airrtc.th123e (Heatcold Heating Thermostat) thermostat
+- Added support for zhimi.airpurifier.mc1 (Xiaomi Air Purifier 2S Global Version) air purifier
+
+### Fixed
+- Fix a possible infinite loop which might have occurred on some unknown devices
+
+
+## [1.0.4] - 2022-02-12
+### Added
+- Added support for yeelink.light.colorc (Yeelight RGB LED Bulb) light
+- Added support for zhimi.airp.mb5 (Xiaomi Mi Air Purifier 4) air purifier @blue2000hk for the contribution!
+- Added support for hyd.airer.znlyj2 (MIJIA Smart Clothes Dryer 2) airer @blue2000hk for the contribution!
+- Added support for philips.light.downlight (Xiaomi Mijia Philips Zhirui Downlight) light
+- Added support for isleep.blanket.hs2205 (Painted sleep water heating pad HS2205) heater
+
+### Changed
+- Marked yeelink.light.strip6 as MiCloud required
+
+### Fixed
+- Fix param value 0 being ignored in actions
+
 
 ## [1.0.3] - 2022-02-06
 ### Changed

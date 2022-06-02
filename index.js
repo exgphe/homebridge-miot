@@ -10,7 +10,7 @@ let Service, Characteristic, Homebridge, Accessory;
 
 const PLUGIN_NAME = 'homebridge-miot';
 const PLATFORM_NAME = 'miot';
-const PLUGIN_VERSION = '1.0.3';
+const PLUGIN_VERSION = '1.2.2';
 
 module.exports = function(homebridge) {
   Service = homebridge.hap.Service;
@@ -156,7 +156,6 @@ class miotDeviceController {
   /*----------========== SETUP SERVICES ==========----------*/
 
   prepareAccessoryAndStartPolling() {
-
     // first unregister a cached accessory if present!
     if (this.restoredCachedAccessory) {
       this.logger.debug('Found cached accessory for this device! Unregistering it first!');

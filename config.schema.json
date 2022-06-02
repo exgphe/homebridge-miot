@@ -400,8 +400,7 @@
       }
     }
   },
-  "layout": [
-    {
+  "layout": [{
       "type": "fieldset",
       "title": "Global MiCloud Settings",
       "description": "Configure global MiCloud connection details used for all devices.",
@@ -427,8 +426,7 @@
           "key": "devices[]",
           "type": "fieldset",
           "title": "{{ value.title }}",
-          "items": [
-            {
+          "items": [{
               "type": "fieldset",
               "title": "Advanced Settings",
               "description": "Configure advanced plugin settings.",
@@ -577,7 +575,7 @@
                 "devices[].offDelayControl"
               ],
               "condition": {
-                "functionBody": "var device = model.devices[arrayIndices];return !device.model || device.model.match(/^(zhimi|leshow)\\.heater\\.([^.]+)$/);"
+                "functionBody": "var device = model.devices[arrayIndices];return !device.model || device.model.match(/^(zhimi|leshow|isleep)\\.(heater|blanket)\\.([^.]+)$/);"
               }
             },
             {
@@ -680,7 +678,7 @@
                 "devices[].showTemperature"
               ],
               "condition": {
-                "functionBody": "var device = model.devices[arrayIndices];return !device.model || device.model.match(/^(chuangmi|cuco|zimi)\\.(plug|powerstrip)\\.([^.]+)$/);"
+                "functionBody": "var device = model.devices[arrayIndices];return !device.model || device.model.match(/^(chuangmi|cuco|zimi|qmi)\\.(plug|powerstrip)\\.([^.]+)$/);"
               }
             },
             {
@@ -716,8 +714,7 @@
               "description": "Configure air monitor specific device settings.",
               "expandable": true,
               "expanded": false,
-              "items": [
-                {
+              "items": [{
                   "key": "devices[].pm25Breakpoints",
                   "type": "array",
                   "items": {
@@ -729,7 +726,7 @@
                 "devices[].co2AbnormalThreshold"
               ],
               "condition": {
-                "functionBody": "var device = model.devices[arrayIndices];return !device.model || device.model.match(/^(cgllc)\\.(airm|airmonitor)\\.([^.]+)$/);"
+                "functionBody": "var device = model.devices[arrayIndices];return !device.model || device.model.match(/^(cgllc|zhimi)\\.(airm|airmonitor)\\.([^.]+)$/);"
               }
             }
           ]

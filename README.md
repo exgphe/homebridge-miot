@@ -44,6 +44,7 @@ The goal is to add Homekit support to miot devices and make them fully controlla
 * Thermostat
 * Switch
 * Air Monitor
+* Cooker
 
 More device types will be added!
 
@@ -158,7 +159,7 @@ Other ways:
 Keep in mind that your device needs to support the feature which you enable, otherwise you will not see any effect.
 #### Platform configuration fields
 - `platform` [required]
-Should always be **"miot"**.
+Must always be **"miot"**.
 - `devices` [required]
 A list of your devices.
 - `micloud` [optional]

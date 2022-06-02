@@ -18,6 +18,10 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 -   dmaker.fan.p18 (Mi Smart Fan 2)
 -   air.fan.ca23ad9 (AIRMATE CA23-AD9 Air Circulation Fan)
 -   zhimi.fan.v3 (Smartmi Standing Fan V3) 🔵[MiCloud]
+-   zhimi.fan.sa1 (Mi Standing Fan) 🔵[MiCloud]
+-   dmaker.fan.p30 (Xiaomi Smart Standing Fan 2)
+-   dmaker.fan.p33 (Xiaomi Smart Standing Fan 2 Pro)
+-   dmaker.fan.p220 (Mijia DC Inverter Circulating Floor Fan)
 
 ### Ceiling Fan
 
@@ -37,6 +41,7 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 -   zhimi.heater.zb1 (Smartmi Smart Convector Heater 1S)
 -   leshow.heater.bs1s (Mi Smart Baseboard Heater 1S)
 -   leshow.heater.bs3 (Mi Smart Baseboard Heater 3)
+-   isleep.blanket.hs2205 (Painted sleep water heating pad HS2205)
 
 ### Humidifier
 
@@ -68,9 +73,14 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 -   hanyi.airpurifier.kj550 (MiWhole Air Purifier Mix)
 -   zhimi.airpurifier.sb1 (Xiaomi Mi Air Purifier MAX) 🔵[MiCloud]
 -   zhimi.airp.mb4a (Xiaomi Mi Air Purifier 3C v2)
+-   zhimi.airp.mb5 (Xiaomi Mi Air Purifier 4)
 -   zhimi.airp.vb4 (Xiaomi Air Purifier Pro 4)
 -   zhimi.airpurifier.m2 (Xiaomi Air Purifier 2) 🔵[MiCloud]
 -   zhimi.airp.vb2a (Xiaomi Air Purifier Pro H v2)
+-   zhimi.airpurifier.mc1 (Xiaomi Air Purifier 2S Global Version) 🔵[MiCloud]
+-   zhimi.airp.mb3a (Xiaomi Mi Air Purifier 3H v2)
+-   zhimi.airp.rmb1 (Xiaomi Air Purifier 4 Lite)
+-   zhimi.airp.mp4 (Miija Air Purifier 4 Pro)
 
 ### Air Conditioner
 
@@ -97,6 +107,9 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 -   cuco.plug.cp1m (Gosund Smart Plug CP1-AM)
 -   chuangmi.plug.hmi208 (Xiaomi Mijia Smart Wi-fi Plug) 🔵[MiCloud]
 -   zimi.powerstrip.v2 (Xiaomi Power Strip) 🔵[MiCloud]
+-   qmi.powerstrip.v1 (Xiaomi Chingmi WiFi Smart Powerstrip) 🔵[MiCloud]
+-   cuco.plug.cp3a (Gosund CP3-AM)
+-   cuco.plug.cp5pro (Gosund Smart Power Strip Pro)
 
 ### Curtain
 
@@ -143,6 +156,11 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 -   viomi.vacuum.v8 (Xiaomi Robot Vacuum-Mop Pro) 🔵[MiCloud]
 -   ijai.vacuum.v3 (Mi Robot Vacuum-Mop 2 Pro)
 -   dreame.vacuum.p2150o (Mijia Robot Vacuum-Mop Dirt Disposal)
+-   dreame.vacuum.p2259 (Dreame Bot D9 Max)
+-   dreame.vacuum.p2187 (Dreame D9 Pro)
+-   roborock.vacuum.a01 (Roborock E4) 🔵[MiCloud]
+-   roborock.vacuum.a27 (Roborock S7 MaxV Ultra)
+-   dreame.vacuum.p2027 (Dreame W10)
 
 ### Light
 
@@ -161,12 +179,17 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 -   yeelink.light.monob (Yeelight GU10 LED Smart Bulb W1)
 -   yeelink.light.mono6 (Yeelight Smart LED Bulb mono6)
 -   yeelink.light.lamp22 (Xiaomi Mi Computer Monitor Light Bar 1S)
--   yeelink.light.strip6 (Yeelight Lightstrip Plus)
+-   yeelink.light.strip6 (Yeelight Lightstrip Plus) 🔵[MiCloud]
 -   philips.light.candle2 (Xiaomi Philips Zhirui Candle Light Bulb) 🔵[MiCloud]
+-   yeelink.light.colorc (Yeelight RGB LED Bulb)
+-   philips.light.downlight (Xiaomi Mijia Philips Zhirui Downlight)
+-   yeelink.light.lamp15 (Yeelight Led Screen Light Bar Pro)
+-   cuco.light.sl4a (NiteBird SL4)
 
 ### Airer
 
 -   hyd.airer.znlyj1 (MIJIA Smart Clothes Dryer) 🔵[MiCloud]
+-   hyd.airer.znlyj2 (MIJIA Smart Clothes Dryer 2)
 -   hyd.airer.znlyj4 (MIJIA Smart Clothes Dryer 4)
 
 ### Oven
@@ -196,6 +219,7 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 ### Thermostat
 
 -   cubee.airrtc.th123w (Heatcold UFH Thermostat)
+-   cubee.airrtc.th123e (Heatcold Heating Thermostat)
 
 ### Switch
 
@@ -204,5 +228,10 @@ Devices marked as 🔵[MiCloud] require a MiCloud connection. Please specify the
 
 ### Air Monitor
 
--   cgllc.airmonitor.b1 (Xiaomi Air Quality Monitor) 🔵[MiCloud]
--   cgllc.airm.cgdn1 (Qingping Air Monitor Lite)
+- cgllc.airmonitor.b1 (Xiaomi Air Quality Monitor) 🔵[MiCloud]
+- cgllc.airm.cgdn1 (Qingping Air Monitor Lite)
+- zhimi.airmonitor.v1 (Xiaomi PM2.5 Monitor) 🔵[MiCloud]
+
+### Cooker
+
+- chunmi.cooker.normalcd1 (Mi IH 3L Rice Cooker) 🔵[MiCloud]
